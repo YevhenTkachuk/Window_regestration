@@ -1,4 +1,4 @@
-[Demo]( https://yevhentkachuk.github.io/Window_reg/index.html)
+[Demo]( https://yevhentkachuk.github.io/Window_regestration/index.html)
 
 ### Description
 
