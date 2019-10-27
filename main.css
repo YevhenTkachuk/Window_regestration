@@ -1,0 +1,105 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('img/bg.png') no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.reg {
+    width: 100%;
+    height: 1000px;
+}
+
+.regButton {
+    width: 100%;
+    text-align: center;
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 6px 24px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.regButton:hover {
+    background: #ccc;
+}
+
+#window {
+    opacity: 0.8;
+    padding: 15px;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+    z-index: 100;
+    overflow: auto;
+}
+
+#window__wrap {
+    width: 350px;
+    height: 530px;
+    margin: 40px auto;
+    background: #fff;
+    border: 1px solid #2e51eb;
+    border-radius: 15px;
+    z-index: 150;
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.form__title {
+    color: #2e51eb;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form {
+    width: 275px;
+    margin: -15px auto 20px auto;
+    text-align: center;
+}
+
+.form__input {
+    width: 260px;
+    padding: 5px;
+    margin-bottom: 25px;
+    border: 1px solid #2e51eb;
+}
+
+.window_close {
+    width: 15px;
+    height: 15px;
+    margin: 10px 0 0 320px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 2px;
+    background: #fff;
+}
+
+.window_close:hover {
+    background: #ccc;
+}
+
+.form__input_button {
+    height: 35px;
+    background: #2f4feb;
+    border: 1px solid #2e51eb;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    color: white;
+}

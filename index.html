@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Всплывающее окно на css,javascript</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="reg">
+    <button  class="regButton">Регистрация</button>
+    <!-- Задний прозрачный фон -->
+    <div onclick="show('none')" id="window"></div>
+    <div id="window__wrap">
+        <!-- Картинка крестика -->
+        <img class="window_close" src="img/Path%202.png" alt="" onclick="show('none')">
+        <div class="form">
+            <h2 class="form__title">Регистрация</h2>
+            <form OnSubmit='return Validate(this);' action="index.html" name="f1">
+                <input type="text" placeholder="ФИО*" name="username" class="form__input">
+                <input type="email" placeholder="E-mail(ваш логин)*" name="mail" class="form__input">
+                <input type='tel' oninput="this.value=this.value.replace(/[^0-9]/g,'');" placeholder="Телефон*"
+                       name="tel"
+                       class="form__input">
+                <input type="text" placeholder="Страна*" name="country" class="form__input">
+                <input type="text" placeholder="Дата рождения" class="form__input" onfocus="(this.type='date')"
+                       name="date">
+                <input type="password" placeholder="Пароль*" name="pass" class="form__input">
+                <input type="password" placeholder="Подтвердите пароль*" name="passagain" class="form__input">
+                <input type="submit" value="ЗАРЕГЕСТРИРОВАТЬСЯ" name="sab" class="form__input_button">
+            </form>
+        </div>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
